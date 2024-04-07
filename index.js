@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/concerts', concertRouter);
 
 app.get('/', (req, res) => {
-  res.send('HELLO FROM NODE API!');
+  res.send('HELLO FROM CONCERTS DATABASE API!');
 });
 
 app.listen(process.env.PORT, () => {
