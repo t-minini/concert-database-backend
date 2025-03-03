@@ -14,12 +14,13 @@ API designed and developed to enhance the functionality of "Concerts Database", 
 
 - Run **npm run dev** to start the application.
 - Connect to the API using Postman or Insomnia on local port **4000**.
+- Connect to the API using a web browser on local port **(https://concert-database-api.onrender.com/)**.
 
 ### API Endpoints
 
 | HTTP Verbs | Endpoints            | Action                                     |
 | ---------- | -------------------- | ------------------------------------------ |
-| **GET**    | /concerts/           | _To retrieve all concerts on the platform_ |
+| **GET**    | /concerts/all        | _To retrieve all concerts on the platform_ |
 | **GET**    | /concerts/:id        | _To retrieve details of a single concert_  |
 | **POST**   | /concerts/add        | _To create a new concert_                  |
 | **PUT**    | /concerts/edit/:id   | _To edit the details of a single concert_  |
