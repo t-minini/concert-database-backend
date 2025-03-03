@@ -1,4 +1,4 @@
-# Concerts Database API &nbsp;🎸
+# Concerts Database API&nbsp;🎸
 
 ### Introduction
 
