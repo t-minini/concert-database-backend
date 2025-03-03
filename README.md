@@ -2,19 +2,19 @@
 
 ### Introduction
 
-API designed and developed to enhance the functionality of "Concerts Database", a web application dedicated to preserving memories of concerts attended. By seamlessly integrating with the platform, this API empowers Concerts Database to deliver dynamic content and interactive features.
+API was designed and developed to enhance the functionality of "Concerts Database", a web application dedicated to preserving memories of concerts attended. By seamlessly integrating with the platform, this API empowers Concerts Database to deliver dynamic content and interactive features.
 
 ### Installation Guide
 
 - Clone this repository.
 - Run npm install to install all dependencies
-- Create an .env file in your project root folder and add your variables. See .env.sample for assistance.
+- Create a .env file in your project root folder and add variables. See .env.sample for assistance.
 
 ### Usage
 
 - Run **npm run dev** to start the application.
 - Connect to the API using Postman or Insomnia on local port **4000**.
-- Connect to the API using a web browser on local port **(https://concert-database-api.onrender.com/)**.
+- Connect to the API using a web browser on **(https://concert-database-api.onrender.com/)** address.
 
 ### API Endpoints
 
@@ -28,10 +28,10 @@ API designed and developed to enhance the functionality of "Concerts Database", 
 
 ### Technologies Used
 
-- [NodeJS](https://nodejs.org/) This is a cross-platform runtime environment built on Chrome's V8 JavaScript engine used in running JavaScript codes on the server. It allows for installation and managing of dependencies and communication with databases.
+- [NodeJS](https://nodejs.org/) This is a cross-platform runtime environment built on Chrome's V8 JavaScript engine used in running JavaScript codes on the server. It allows for the installation and management of dependencies and communication with databases.
 - [ExpressJS](https://www.expresjs.org/) This is a NodeJS web application framework.
-- [MongoDB](https://www.mongodb.com/) This is a free open source NOSQL document database with scalability and flexibility. Data are stored in flexible JSON-like documents.
-- [Mongoose ODM](https://mongoosejs.com/) This makes it easy to write MongoDB validation by providing a straight-forward, schema-based solution to model to application data.
+- [MongoDB](https://www.mongodb.com/) This is a free open-source NoSQL document database with scalability and flexibility. Data are stored in flexible JSON-like documents.
+- [Mongoose ODM](https://mongoosejs.com/) This makes it easy to write MongoDB validation by providing a straightforward, schema-based solution to model application data.
 
 ### Authors
 
