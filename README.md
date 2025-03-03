@@ -18,13 +18,13 @@ API was designed and developed to enhance the functionality of "Concerts Databas
 
 ### API Endpoints
 
-| HTTP Verbs | Endpoints            | Action                                     |
-| ---------- | -------------------- | ------------------------------------------ |
-| **GET**    | /concerts/all        | _To retrieve all concerts on the platform_ |
-| **GET**    | /concerts/:id        | _To retrieve details of a single concert_  |
-| **POST**   | /concerts/add        | _To create a new concert_                  |
-| **PUT**    | /concerts/edit/:id   | _To edit the details of a single concert_  |
-| **DELETE** | /concerts/delete/:id | _To delete a single concert_               |
+| HTTP Methods | Endpoints            | Action                                     |
+| ------------ | -------------------- | ------------------------------------------ |
+| **GET**      | /concerts/all        | _To retrieve all concerts on the platform_ |
+| **GET**      | /concerts/:id        | _To retrieve details of a single concert_  |
+| **POST**     | /concerts/add        | _To create a new concert_                  |
+| **PUT**      | /concerts/edit/:id   | _To edit the details of a single concert_  |
+| **DELETE**   | /concerts/delete/:id | _To delete a single concert_               |
 
 ### Technologies Used
 
