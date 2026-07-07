@@ -14,7 +14,7 @@ API was designed and developed to enhance the functionality of "Concerts Databas
 
 - Run **npm run dev** to start the application.
 - Connect to the API using Postman or Insomnia on local port **4000**.
-- Connect to the API using a web browser on **(https://concert-database-api.onrender.com/)** address.
+- The API is also deployed at **https://concert-database-api.onrender.com/** — GET endpoints (e.g. `/concerts/all`) can be viewed directly in a browser; POST/PUT/DELETE still require a tool like Postman or Insomnia.
 
 ### API Endpoints
 
@@ -25,6 +25,35 @@ API was designed and developed to enhance the functionality of "Concerts Databas
 | **POST**     | /concerts/add        | _To create a new concert_                  |
 | **PUT**      | /concerts/edit/:id   | _To edit the details of a single concert_  |
 | **DELETE**   | /concerts/delete/:id | _To delete a single concert_               |
+
+### Example Request Body (POST /concerts/add & PUT /concerts/edit/:id)
+
+```json
+{
+  "tour": "Music Of The Spheres World Tour",
+  "artist": "Coldplay",
+  "year": 2023,
+  "city": "São Paulo",
+  "country": "Brazil",
+  "rating": 5
+}
+```
+
+### Example Response
+
+```json
+{
+  "_id": "6598f1a2b3c4d5e6f7a8b9c0",
+  "tour": "Music Of The Spheres World Tour",
+  "artist": "Coldplay",
+  "year": 2023,
+  "city": "São Paulo",
+  "country": "Brazil",
+  "rating": 5,
+  "createdAt": "2023-12-31T12:00:00.000Z",
+  "updatedAt": "2023-12-31T12:00:00.000Z"
+}
+```
 
 ### Technologies Used
 
